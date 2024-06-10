@@ -483,3 +483,38 @@ svg{
     transform: translateX(0px);
     opacity: 1;
 }
+
+.contact-container{
+    background-color:#13272B;
+    height: 700px;
+}
+
+.contact-container h2{
+    font-family: title-font;
+    font-size: 50px;
+    color: #0AAB65;
+    padding: 60px 50px;
+}
+
+.label-form{
+    color: white;
+}
+
+.btn-submit {
+    color: rgba(255, 255, 255, 0.668);
+    margin: 0 4px;
+    background-color: transparent;
+    border-color: #00C16E;
+    stroke-width: 30px;
+    font-family: title-font2;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.btn-submit:hover {
+    color: #13272B;
+    margin: 0 4px;
+    background-color: #00C16E;
+    border-color: transparent;
+    stroke-width: 30px;
+}
