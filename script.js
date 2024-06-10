@@ -56,3 +56,11 @@ function reveal3(){
         }
     }
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const recargarBtn = document.getElementById('recargarBtn');
+    recargarBtn.addEventListener('click', function() {
+        location.reload();
+    });
+});
